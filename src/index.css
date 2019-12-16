@@ -1,12 +1,53 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: url("../src/imgs/Scotland.jpg") no-repeat center center fixed;
+  background-size: cover; /* sets diminsions to browser size */
+  background-repeat: no-repeat;
 }
 
+/*** body nav settings ***/
+.name > span{
+  font-size: 16pt;
+  padding: 8px 16px 16px 8px;
+  float: left;
+}
+
+#homebodynav a{
+  color: black;
+}
+
+#homebodynav{
+  margin-left:auto;
+  margin-right: auto;
+  /* width: 70%; */
+  background:white;
+}
+
+.navlist{
+  display:block;
+  list-style: none;
+  float:right;
+  font-weight:bolder;
+}
+
+.navlist li{
+  color:black !important;
+  font-size: 16pt;
+  float: left;
+}
+
+.name{
+  font-weight: bolder;
+  text-decoration: underline !important;
+}
+
+.top-right-nav {
+  display: flex;
+  justify-content: flex-end !important;
+  width: 90%;
+}
+
+/*** end of body nav settings ***/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
