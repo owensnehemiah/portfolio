@@ -1,7 +1,7 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 // import { Router, Route, Link, browserHistory, Industry } from 'react-router';
-import portfolioPhoto from '../imgs/proflephotos/portfolioPhoto.jpg';
+import portfolioPhoto from '../imgs/proflephotos/portfolioPhoto2.jpg';
 
 class Home extends React.Component {
     render() { 

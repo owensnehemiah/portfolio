@@ -76,6 +76,10 @@ body {
   width:100%;
   background:white;
   text-align:justify;
+  padding:15px;
+  max-height: 200px;
+  height: 100%;
+  /* margin-top:-8px; */
 }
 
 #aboutMeContainer{
@@ -110,10 +114,12 @@ img.profilePhoto {
 #txtName{
   font-family: 'Playfair Display', serif;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 #txtWorkTitle{
   font-family: 'Alegreya SC', serif;
+  margin-bottom:0;
 }
 
 /* #aboutMeContainer{
