@@ -7,13 +7,11 @@ body {
 
 /*** body nav settings ***/
 .name > span{
-  font-size: 16pt;
-  padding: 8px 16px 16px 8px;
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  /* font-family: monospace; */
   float: left;
-}
-
-#homebodynav a{
-  color: black;
 }
 
 #homebodynav{
@@ -21,6 +19,12 @@ body {
   margin-right: auto;
   /* width: 70%; */
   background:white;
+  height: 40px;
+  border-bottom: 1px gray solid
+}
+
+#homebodynav a{
+  color: black;
 }
 
 .navlist{
@@ -28,12 +32,24 @@ body {
   list-style: none;
   float:right;
   font-weight:bolder;
+  /* font-family: monospace; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+  margin: 0px;
+  height:100%;
 }
 
 .navlist li{
   color:black !important;
-  font-size: 16pt;
+  font-size: 12pt;
   float: left;
+  height: 100%;
+}
+
+.navlist li:hover{
+  background:lightblue;
+  color:white;
+  text-decoration: underline;
 }
 
 .name{
@@ -48,6 +64,64 @@ body {
 }
 
 /*** end of body nav settings ***/
+
+
+/*** Home Page **/
+
+#homeDiv {
+  height:100%;
+}
+
+.mainContent{
+  width:100%;
+  background:white;
+  text-align:justify;
+}
+
+#aboutMeContainer{
+  max-width: 700px;
+  background:white !important;
+  padding: 0 15px 0 15px;
+}
+
+#aboutMeHeader{
+  padding: 0 15px 0 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+#aboutMeDetail{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#homeHeader{
+  background:darkgray;
+  opacity: 0.9;
+}
+
+img.profilePhoto {
+  max-width: 10%;
+  /* max-height: 20%; */
+  border-radius: 50%;
+  border: 2px double white;
+  margin: 5% 9% 0 0;
+  margin-top:50px;
+}
+
+#txtName{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+#txtWorkTitle{
+  font-family: 'Alegreya SC', serif;
+}
+
+/* #aboutMeContainer{
+  background:lightgray;
+} */
+.center{
+  text-align: center;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
