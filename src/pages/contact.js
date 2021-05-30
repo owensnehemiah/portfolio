@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class About extends React.Component {
+class Contact extends React.Component {
     render() { 
         return(
             <div>
@@ -12,4 +12,4 @@ class About extends React.Component {
 
 }
 
-export { About }
+export { Contact }

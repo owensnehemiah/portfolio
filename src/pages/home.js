@@ -1,12 +1,11 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
-// import { Router, Route, Link, browserHistory, Industry } from 'react-router';
 import portfolioPhoto from '../imgs/proflephotos/portfolioPhoto2.jpg';
 
 class Home extends React.Component {
     render() { 
         return(
-            <div id="homeDiv">
+            <div>
                 <header id="homeHeader">
                     <div className="center">
                         <img src ={portfolioPhoto} className="profilePhoto" />
@@ -18,10 +17,9 @@ class Home extends React.Component {
                     <div className="container" id="aboutMeContainer">
                         <h2 id="aboutMeHeader">About Me</h2>
                         <div className="col sm-col-9" id="aboutMeDetail">
-                            Software Developer with natural curiosity of new technology.
-                            Three years experience creating web and console applications 
-                            for internal clients that display and manipulate date in a database 
-                            or a third party application.
+                        Experienced developer with 5+ years experience. Specializing in .NET web and console application development using ASP.NET, C#, and SQL Server. 
+                        Searching for an opportunity to learn and apply new and emerging technologies. 
+                        Experience as a developer has enhanced my ability to design, develop, test, and deploy console and web applications. 
                         </div>
                         <div className="col sm-col-3"></div>
                     </div>
